@@ -1,7 +1,7 @@
 package com.example.rosepetalgame;
 
-import com.samsung.spensdk.SCanvasView;
 
+import com.samsung.spensdk.SCanvasView;
 import android.media.MediaPlayer;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
@@ -99,6 +99,7 @@ public class MainActivity extends Activity {
 		 }
 		super.onPause();
 		glSurfaceView.onPause();
+		onStop();
 	}
 	
 	void startMP()
