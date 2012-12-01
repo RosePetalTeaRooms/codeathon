@@ -6,5 +6,6 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="game_name">Business Time</string>
     <string name="title_activity_menu">Menu Screen</string>
+    <string name="game_resume">Resume</string>
 
 </resources>
